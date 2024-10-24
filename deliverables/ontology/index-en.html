@@ -31,7 +31,7 @@ function loadTOC(){
 	  jQuery(".list").each(function(){
 		if(jQuery(this).is('h2')){
 			if(j>0){
-				t+='</ol>';
+				t+='</ul>';
 				j=0;
 			}
 			t+= '<li> <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
@@ -39,13 +39,13 @@ function loadTOC(){
 		}
 		if(jQuery(this).is('h3')){
 			if(j==0){
-				t+='<ul>';
+				t+='<ul style="list-style=none; padding:0">';
 			}
 			j++;
 			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
 		}
 	  });
-	  t+='</ul>';
+	  t+='</ol>';
 	  $("#toc").html(t); 
 }
  $.fn.ignore = function(sel){
