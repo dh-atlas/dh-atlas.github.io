@@ -1,19 +1,4 @@
 <h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-<p>
-    The ATLAS Ontology integrates existing and complementary ontological entities from three main standards—Schema.org, DCTerms, and FaBiO (the FRBR-aligned Bibliographic Ontology)—and introduces new ATLAS Classes and Properties to enhance granularity and specificity, thereby facilitating coherent connections between Classes across different vocabularies.                
-</p>
-<p>
-    The following representation illustrates the Classes (rectangles) defined within the ATLAS ontology, object properties (solid lines beginning with a solid circle and ending with a solid arrow), and assertions among classes (solid lines ending with a solid arrow). At the core of this model is the <code>schema:Dataset</code> class, which defines Research Products as structured sets of information focused on specific topics of interest. This class branches into five specialized subclasses (<code>atlas:LinkedOpenData</code> ; <code>atlas:DigitalScholarlyEdition</code> ; <code>atlas:Ontology</code> ; <code>atlas:Software</code> ; <code>atlas:TextCollection</code>), each designed to provide a more detailed definition and categorization of various types of Research Products. Consequently, each subclass is characterized by distinct properties, and for enhanced clarity, each is also aligned as a subclass of a corresponding class from the FaBiO ontology. This alignment also establishes a meaningful connection with the FRBR model, positioning ATLAS Research Products as Expressions within that framework.
-</p>
-<p class="image"><img src="../resources/graph1.svg"/></p>
-<p>
-    The relationship between a Research Product and the Research Project responsible for its creation is expressed through the <code>schema:producer</code> property, which links a <code>schema:Dataset</code> instance to a <code>schema:Organization</code>, more specifically to a <code>schema:ResearchProject</code>. 
-</p>
-<p>
-    The ATLAS ontology also aims to provide detailed information on the access methods for Research Products. To support this, two key classes from the FaBiO ontology—<code>fabio:ComputerProgram</code> and <code>fabio:WebSite</code>—have been integrated. The former encompasses any type of computer program, including SPARQL endpoints or API services, which facilitates access to the content of a schema:Dataset by offering specific functionalities. In other cases, a Research Product may be made accessible through a dedicated website, as seen with digital edition visualization platforms. These websites typically use advanced software to process the content of the Research Product and generate an interactive browsing interface.
-</p>
-<p>
-    The illustration below presents a simplified use case. A Research Product, specifically an atlas:LinkedOpenData, is connected to its Research Project (schema:ResearchProject) and SPARQL Endpoint (fabio:ComputerProgram).
-</p>
-<p class="image"><img src="../resources/graph2.svg"/></p>   
+    The ATLAS Ontology integrates existing and complementary ontological entities from three main standards—<a href="https://schema.org/" target="_blank" title="https://schema.org/">Schema.org</a>, <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" target="_blank" title="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">DCTerms</a>, and <a href="https://sparontologies.github.io/fabio/current/fabio.html" target="_blank" title="https://sparontologies.github.io/fabio/current/fabio.html">FaBiO (the FRBR-aligned Bibliographic Ontology)</a>—and introduces new ATLAS Classes and Properties to enhance granularity and specificity, thereby facilitating coherent connections between Classes across different vocabularies.
+</span>
