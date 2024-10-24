@@ -1,7 +1,7 @@
 # The ATLAS Ontology
 
 **Version:** 1.0  
-**Version IRI:** [http://www.w3id.org/dh-atlas/] 
+**Version IRI:** [http://www.w3id.org/dh-atlas/](http://www.w3id.org/dh-atlas/)  
 **Authors:** Francesca Tomasi, Marilena Daquino, Sebastiano Giacomini  
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 

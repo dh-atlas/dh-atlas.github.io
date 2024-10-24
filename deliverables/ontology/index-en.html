@@ -39,7 +39,7 @@ function loadTOC(){
 		}
 		if(jQuery(this).is('h3')){
 			if(j==0){
-				t+='<ul style="list-style=none; padding:0">';
+				t+='<ul style="list-style:none; padding:0">';
 			}
 			j++;
 			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
