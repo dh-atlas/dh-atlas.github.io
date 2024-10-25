@@ -1,5 +1,13 @@
 <http://www.w3id.org/dh-atlas/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.w3id.org/dh-atlas/> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3id.org/dh-atlas/> .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Alessia Bardi" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Angelo Mario Del Grosso" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Chiara Martignano" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Franz Fischer" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Giorgia Rubin" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Marina Buzzoni" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Riccardo Del Gratta" .
+<http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Roberto Rosselli Del Turco" .
 <http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/created> "2024-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Francesca Tomasi" .
 <http://www.w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Marilena Daquino" .
@@ -19,6 +27,9 @@
 # 
 # http://purl.org/dc/elements/1.1/abstract
 <http://purl.org/dc/elements/1.1/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/elements/1.1/created
 <http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

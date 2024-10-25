@@ -2,6 +2,9 @@
   "@id" : "http://purl.org/dc/elements/1.1/abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -691,6 +694,23 @@
 }, {
   "@id" : "http://www.w3id.org/dh-atlas/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Alessia Bardi"
+  }, {
+    "@value" : "Angelo Mario Del Grosso"
+  }, {
+    "@value" : "Chiara Martignano"
+  }, {
+    "@value" : "Franz Fischer"
+  }, {
+    "@value" : "Giorgia Rubin"
+  }, {
+    "@value" : "Marina Buzzoni"
+  }, {
+    "@value" : "Riccardo Del Gratta"
+  }, {
+    "@value" : "Roberto Rosselli Del Turco"
+  } ],
   "http://purl.org/dc/elements/1.1/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
     "@value" : "2024-10-15"

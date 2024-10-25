@@ -9,6 +9,14 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.w3id.org/dh-atlas/">
         <owl:versionIRI rdf:resource="http://www.w3id.org/dh-atlas/"/>
+        <dc:contributor>Alessia Bardi</dc:contributor>
+        <dc:contributor>Angelo Mario Del Grosso</dc:contributor>
+        <dc:contributor>Chiara Martignano</dc:contributor>
+        <dc:contributor>Franz Fischer</dc:contributor>
+        <dc:contributor>Giorgia Rubin</dc:contributor>
+        <dc:contributor>Marina Buzzoni</dc:contributor>
+        <dc:contributor>Riccardo Del Gratta</dc:contributor>
+        <dc:contributor>Roberto Rosselli Del Turco</dc:contributor>
         <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-15</dc:created>
         <dc:creator>Francesca Tomasi</dc:creator>
         <dc:creator>Marilena Daquino</dc:creator>
@@ -39,6 +47,13 @@ The ATLAS Ontology integrates existing and complementary ontological entities fr
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
 
 

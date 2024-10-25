@@ -3,6 +3,7 @@
 **Version:** 1.0  
 **Version IRI:** [http://www.w3id.org/dh-atlas/](http://www.w3id.org/dh-atlas/)  
 **Authors:** Francesca Tomasi, Marilena Daquino, Sebastiano Giacomini  
+**Contributors:** Alessia Bardi, Angelo Mario Del Grosso, Chiara Martignano, Franz Fischer, Giorgia Rubin, Marina Buzzoni, Riccardo Del Gratta, Roberto Rosselli Del Turco  
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## The Ontology
