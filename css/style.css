@@ -429,6 +429,15 @@ CONTENT
             100% { opacity:1; }
         }
 
+
+.news {
+  color: #d4af37 !important;
+}
+.title {
+  font-style: italic;
+}
+
+.two-column > ul > li {line-height: 22px;}
 /*
 **************************
 HOME SIDEBAR
