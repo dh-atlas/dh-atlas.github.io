@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
 
 body{
   font-family: 'Raleway', sans-serif;
@@ -13,7 +13,7 @@ body{
 		color: #fff;
 		text-shadow: none;
 	}
-	
+
 	::-moz-selection {
 		background: #000;
 		color: #fff;
@@ -32,7 +32,7 @@ a{
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in; 
+	transition: all 0.2s ease-in;
 	border-bottom:1px solid #dedede;
 }
 
@@ -59,7 +59,7 @@ PRELOADER
   background:white;
   z-index:999;
 }
- 
+
 .preloader .item{
   position:absolute;
   width:50px;
@@ -68,14 +68,14 @@ PRELOADER
   top:50%;
   margin-left:-25px;
   margin-top:-25px;
-} 
+}
 
 .spinner {
   width: 40px;
   height: 40px;
   margin: 0px auto;
   background-color: #333;
-  border-radius: 100%;  
+  border-radius: 100%;
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
   animation: scaleout 1.0s infinite ease-in-out;
 }
@@ -89,7 +89,7 @@ PRELOADER
 }
 
 @keyframes scaleout {
-  0% { 
+  0% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
   } 100% {
@@ -184,7 +184,7 @@ header.boxed{
 	-moz-transition: background 0.2s ease-in;
 	-ms-transition: background 0.2s ease-in;
 	-o-transition: background 0.2s ease-in;
-	transition: background 0.2s ease-in; 
+	transition: background 0.2s ease-in;
 }
 
 header.boxed .header-margin{
@@ -291,7 +291,7 @@ header li > a{
   padding-left:25px;
   font-weight:800;
   line-height:80px;
-  display:inline-block;  
+  display:inline-block;
   border-bottom:0;
 }
 
@@ -309,7 +309,7 @@ header li ul{
 
 header li ul li a{
   line-height:50px;
-  padding-left:30px; 
+  padding-left:30px;
   width:260px;
 }
 
@@ -326,16 +326,16 @@ CONTENT
 */
 
 .hero-image{
-  position:relative; 
-  width:100%; 
-  top:0; 
-  height:400px; 
+  position:relative;
+  width:100%;
+  top:0;
+  height:400px;
   background: url('../img/full/full.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
-  
+  background-size: cover;
+
 }
 
 .one-column{
@@ -527,7 +527,7 @@ li.grid-item{
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in; 
+	transition: all 0.2s ease-in;
 }
 
 .grid-hover:hover{
@@ -673,7 +673,7 @@ input.button-submit{
 }
 
 input:focus{
-  background:#f4f4f4; 
+  background:#f4f4f4;
 }
 
 textarea{
@@ -696,7 +696,7 @@ textarea{
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in; 
+	transition: all 0.2s ease-in;
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
