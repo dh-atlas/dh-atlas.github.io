@@ -1,0 +1,2186 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://purl.org/vocab/vann", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://ontosoft.org/software", "http://www.w3.org/2000/01/rdf-schema", "https://schema.org", "https://w3id.org/dh-atlas", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://purl.org/spar/fabio", "https://www.w3id.org/dh-atlas", "http://id.loc.gov/ontologies/bibframe" ],
+    "iri" : "https://w3id.org/dh-atlas/",
+    "version" : "2.0",
+    "author" : [ "Sebastiano Giacomini", "Francesca Tomasi", "Marilena Daquino" ],
+    "description" : {
+      "en" : "The ATLAS Ontology is an OWL 2 DL ontology, designed to effectively represent scholarly research projects and their outcomes within the Cultural Heritage domain. In particular, it focuses on highlighting the key characteristics of significant types of research products (Text Collection, Digital Scholarly Edition, Linked Open Data, Ontology, Software, Language Model, and 3D Digital Twin), while considering their unique attributes and specifications. In so doing, it seeks to realise the potential of sharing protocols, good practices, guidelines and evaluation frameworks in the humanities.\n\nBuilt upon a Schema.org backbone, the ATLAS Ontology incorporates both general-purpose and domain-specific ontological standards—such as DCTerms, FaBiO, and Bibframe—by reusing and integrating their terms and types. To ensure greater semantic precision and expressiveness, it also introduces new ATLAS-specific Classes and Properties. This approach enables a higher level of granularity and fosters consistent, meaningful connections between Classes across diverse vocabularies."
+    },
+    "labels" : {
+      "undefined" : "The ATLAS Ontology"
+    },
+    "other" : {
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "undefined",
+        "value" : "https://w3id.org/dh-atlas/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Francesca Tomasi",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Sebastiano Giacomini",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Marilena Daquino",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Giorgia Rubin",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Riccardo Del Gratta",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Roberto Rosselli del Turco",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Franz Fischer",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Angelo Mario Del Grosso",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Alessia Bardi",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Chiara Martignano",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Marina Buzzoni",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2024-10-15",
+        "type" : "label"
+      } ],
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "undefined",
+        "value" : "https://w3id.org/italia/controlled-vocabulary/licences/B11_CCBYNC40",
+        "type" : "iri"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2025-07-16",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "2.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "52",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "53",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/dh-atlas/LinkedOpenData",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LinkedOpenData",
+      "en" : "Linked Open Data"
+    },
+    "comment" : {
+      "en" : "An interlinked, openly accessible set of RDF triples published on the web."
+    },
+    "id" : "5",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/TextCollection",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TextCollection",
+      "en" : "Text Collection"
+    },
+    "comment" : {
+      "en" : "A type of digital archive that focuses on textual heritage, preserving texts digitally and providing web access. Beyond the texts, a text collection typically offers bibliographic metadata and editorial annotations."
+    },
+    "id" : "18",
+    "superClasses" : [ "19", "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "28", "35" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "34"
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "18" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/LanguageModel",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LanguageModel",
+      "en" : "Language Model"
+    },
+    "comment" : {
+      "en" : "A machine learning model designed to predict and generate language."
+    },
+    "id" : "15",
+    "superClasses" : [ "28", "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "49" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "48"
+  }, {
+    "instances" : 0,
+    "union" : [ "28", "2" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.org/spar/fabio/OntologyDocument",
+    "baseIri" : "http://purl.org/spar/fabio",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/spar/fabio",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OntologyDocument",
+      "en" : "Ontology Document"
+    },
+    "subClasses" : [ "17" ],
+    "comment" : {
+      "en" : "A document containing an ontology, for example an OWL (Web Ontology Language) file (http://www.w3.org/TR/owl-features/)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "18" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "47",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "52",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "53",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/3DDigitalTwin",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "3DDigitalTwin",
+      "en" : "3D Digital Twin"
+    },
+    "comment" : {
+      "en" : "A 3D digital replica of a cultural heritage object (e.g., an artwork, an archaeological site, or a museum environment) allowing cultural operators to explore, preserve, and share Cultural Heritage in innovative ways (Nicolucci and Felicetti 2024)"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/DigitalScholarlyEdition",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DigitalScholarlyEdition",
+      "en" : "Digital Scholarly Edition"
+    },
+    "comment" : {
+      "en" : "An information resource which offers a critical representation of documents or texts of literary or historical value following a shared methodology determined by a digital paradigm."
+    },
+    "id" : "32",
+    "superClasses" : [ "2", "76" ]
+  }, {
+    "iri" : "https://schema.org/SoftwareApplication",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SoftwareApplication",
+      "en" : "SoftwareApplication"
+    },
+    "subClasses" : [ "15", "27" ],
+    "comment" : {
+      "en" : "A software application."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://schema.org/Organization",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization",
+      "en" : "Organization"
+    },
+    "subClasses" : [ "24" ],
+    "comment" : {
+      "en" : "An organization such as a school, NGO, corporation, club, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://schema.org/WebSite",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WebSite",
+      "en" : "WebSite"
+    },
+    "comment" : {
+      "en" : "A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/Ontology",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ontology",
+      "en" : "Ontology"
+    },
+    "comment" : {
+      "en" : "A formal model of concepts and their interrelations describing a domain of interest."
+    },
+    "id" : "17",
+    "superClasses" : [ "40", "2" ]
+  }, {
+    "iri" : "http://purl.org/spar/fabio/Anthology",
+    "baseIri" : "http://purl.org/spar/fabio",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/spar/fabio",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Anthology",
+      "en" : "Anthology"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "en" : "A collection of selected literary or scholastics works, for example poems, short stories, plays or research papers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://schema.org/Dataset",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Dataset",
+      "en" : "Dataset"
+    },
+    "subClasses" : [ "32", "17", "15", "1", "5", "18", "27" ],
+    "comment" : {
+      "en" : "A body of structured information describing some topic(s) of interest."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/spar/fabio/MetadataDocument",
+    "baseIri" : "http://purl.org/spar/fabio",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/spar/fabio",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MetadataDocument",
+      "en" : "Metadata Document"
+    },
+    "subClasses" : [ "32" ],
+    "comment" : {
+      "en" : "A document that contains metadata information describing one or more characteristics of an entity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://schema.org/Person",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "comment" : {
+      "en" : "A person (alive, dead, undead, or fictional)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "https://schema.org/ResearchProject",
+    "baseIri" : "https://schema.org",
+    "instances" : 0,
+    "description" : {
+      "en" : "Usage note: in ATLAS a Research Project is intended as a Research group undertaking some activities that lead to the creation of a Research product."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ResearchProject",
+      "en" : "ResearchProject"
+    },
+    "comment" : {
+      "en" : "A Research project."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/Software",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software",
+      "en" : "Software"
+    },
+    "comment" : {
+      "en" : "A software entity that implements one or more algorithms to perform specific computational tasks."
+    },
+    "id" : "27",
+    "superClasses" : [ "28", "2" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://schema.org/creator",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "creator",
+      "en" : "creator"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://schema.org/member",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "member",
+      "en" : "member"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://ontosoft.org/software#hasOutput",
+    "baseIri" : "http://ontosoft.org/software",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontosoft.org/software",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasOutput",
+      "en" : "has output"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "What output files does the software produce ?"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://schema.org/size",
+    "baseIri" : "https://schema.org",
+    "range" : "9",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "size",
+      "en" : "size"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A standardized size of a product or creative work, specified either through a simple textual string (for example 'XL', '32Wx34L'), a  QuantitativeValue with a unitCode, or a comprehensive and structured SizeSpecification; in other cases, the width, height, depth and weight properties may be more applicable."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://schema.org/contributor",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "contributor",
+      "en" : "contributor"
+    },
+    "domain" : "4",
+    "subproperty" : [ "11" ],
+    "comment" : {
+      "en" : "A secondary contributor to the CreativeWork or Event."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/used",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "used",
+      "en" : "used"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "A Dataset or software component that is partially or fully utilized in the creation or realization of the described Dataset."
+    },
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "14"
+  }, {
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://schema.org/description",
+    "baseIri" : "https://schema.org",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "description"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A description of the item."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://ontosoft.org/software#hasInput",
+    "baseIri" : "http://ontosoft.org/software",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontosoft.org/software",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasInput",
+      "en" : "has input"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "What input files does the software require ?"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://schema.org/citation",
+    "baseIri" : "https://schema.org",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "citation",
+      "en" : "citation"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
+  }, {
+    "range" : "2",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://schema.org/spatialCoverage",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: the place(s) which are the focus of the text collection's content."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "spatialCoverage",
+      "en" : "spatialCoverage"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The spatialCoverage of a CreativeWork indicates the place(s) which are the focus of the content. It is a subproperty of contentLocation intended primarily for more technical and detailed materials. For example with a Dataset, it indicates areas that the dataset describes: a dataset of New York weather would have spatialCoverage which was the place: the state of New York."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "28",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "38"
+  }, {
+    "range" : "40",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/noteOnResearchProduct",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "noteOnResearchProduct",
+      "en" : "note on research product"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Additional information or comments on the Dataset. Notes may include details on the type of sources and their use."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://id.loc.gov/ontologies/bibframe/expressionOf",
+    "baseIri" : "http://id.loc.gov/ontologies/bibframe",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: in ATLAS, a work that one or more resources in the Dataset are Expression of."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://id.loc.gov/ontologies/bibframe/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "expressionOf",
+      "en" : "expression of"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Work or Hub that the described Work or Hub is an expression of; used to connect Works and/or Hubs under LRM/RDA guidelines or similar implementations."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://schema.org/publisher",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: the agent responsible for publishing the Dataset."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publisher",
+      "en" : "publisher"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The publisher of the article in question."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://schema.org/creativeWorkStatus",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. The recommended controlled vocabulary is the [EU Dataset status vocabulary](http://publications.europa.eu/resource/authority/dataset-status)"
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "creativeWorkStatus",
+      "en" : "creativeWorkStatus"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The status of a creative work in terms of its stage in a lifecycle. Example terms include Incomplete, Draft, Published, Obsolete. Some organizations define a set of terms for the stages of their publication lifecycle."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://schema.org/mentions",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mentions",
+      "en" : "mentions"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/servedBy",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "servedBy",
+      "en" : "served by"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "A data service (API, endpoint), software, or website that provides access to the Dataset."
+    },
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "https://schema.org/version",
+    "baseIri" : "https://schema.org",
+    "range" : "55",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "version",
+      "en" : "version"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The version of the CreativeWork embodied by a specified resource."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "https://schema.org/isPartOf",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isPartOf",
+      "en" : "isPartOf"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://schema.org/distribution",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "distribution",
+      "en" : "distribution"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "A downloadable form of this dataset, at a specific location, in a specific format. This property can be repeated if different variations are available. There is no expectation that different downloadable distributions must contain exactly equivalent information (see also [DCAT](https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution) on this point). Different distributions might include or exclude different subsets of the entire dataset, for example."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://schema.org/educationalUse",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from the [TaDiRAH taxonomy](https://vocabs.dariah.eu/tadirah/)."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "educationalUse",
+      "en" : "educationalUse"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The purpose of a work in the context of education; for example, 'assignment', 'group work'."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/vocabulary",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "vocabulary",
+      "en" : "vocabulary"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "A vocabulary or owl:Ontology whose classes or properties are used in a Linked Open Data dataset."
+    },
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://schema.org/identifier",
+    "baseIri" : "https://schema.org",
+    "range" : "62",
+    "description" : {
+      "en" : "Usage note: an unambiguous reference assigned to the resource being registered. This can be any alphanumeric string conforming to a recognized identification system (e.g., ORCiD, DOI, ISBN, ISSN, etc.)"
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "identifier",
+      "en" : "identifier"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://schema.org/hasPart",
+    "inverse" : "57",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasPart",
+      "en" : "hasPart"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://purl.org/dc/terms/accessRights",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from [Controlled Vocabularies for Repository: Access Rights](https://vocabularies.coar-repositories.org/access_rights/)."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accessRights",
+      "en" : "Access Rights"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Information about who access the resource or an indication of its security status."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://schema.org/additionalType",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: in ATLAS, the value is a URI-identified RDF class."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "additionalType",
+      "en" : "additionalType"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org style guide."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://id.loc.gov/ontologies/bibframe/accompaniedBy",
+    "baseIri" : "http://id.loc.gov/ontologies/bibframe",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: in ATLAS, facsimiles of documents or witnesses included in the catalogued edition."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://id.loc.gov/ontologies/bibframe/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accompaniedBy",
+      "en" : "accompanied by"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Resource that accompanies the described resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "https://schema.org/dissolutionDate",
+    "baseIri" : "https://schema.org",
+    "range" : "68",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dissolutionDate",
+      "en" : "dissolutionDate"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The date that this organization was dissolved."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://schema.org/temporalCoverage",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: in ATLAS, relates a text collection to a time period during which its content is applicable, represented as a URI."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "temporalCoverage",
+      "en" : "temporalCoverage"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The temporalCoverage of a CreativeWork indicates the period that the content applies to, i.e. that it describes, either as a DateTime or as a textual string indicating a time period in [ISO 8601 time interval format](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals). In the case of a Dataset it will typically indicate the relevant time period in a precise notation (e.g. for a 2011 census dataset, the year 2011 would be written \"2011/2012\"). Other forms of content, e.g. ScholarlyArticle, Book, TVSeries or TVEpisode, may indicate their temporalCoverage in broader terms - textually or via well-known URL.\nWritten works such as books may sometimes have precise temporal coverage too, e.g. a work set in 1939 - 1945 can be indicated in ISO 8601 interval format format via \"1939/1945\".\n Open-ended date ranges can be written with \"..\" in place of the end date. For example, \"2015-11/..\" indicates a range beginning in November 2015 and with no specified final date. This is tentative and might be updated in future when ISO 8601 is officially updated."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://id.loc.gov/ontologies/bibframe/associatedResource",
+    "baseIri" : "http://id.loc.gov/ontologies/bibframe",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: in ATLAS, a web resource presenting as digital facsimile the document(s) or witness(es) on which an edition is based."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://id.loc.gov/ontologies/bibframe/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "associatedResource",
+      "en" : "associated resource"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Associated resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://schema.org/isBasedOn",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: in ATLAS, this property connects SoftwareApplication and WebSite instances to resources they are derived from, such as components, libraries, services, or other pre-existing works."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isBasedOn",
+      "en" : "isBasedOn"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "A resource from which this work is derived or from which it is a modification or adaptation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://schema.org/about",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies or defined terms should be preferred."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "about",
+      "en" : "about"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The subject matter of the content."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "2",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "73"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "76",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://schema.org/usageInfo",
+    "baseIri" : "https://schema.org",
+    "range" : "56",
+    "description" : {
+      "en" : "Usage note: in ATLAS, the URL of a Web page that contains the documentation for the resource."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "usageInfo",
+      "en" : "usageInfo"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The schema.org usageInfo property indicates further information about a CreativeWork. This property is applicable both to works that are freely available and to those that require payment or other transactions. It can reference additional information, e.g. community expectations on preferred linking and citation conventions, as well as purchasing details. For something that can be commercially licensed, usageInfo can provide detailed, resource-specific information about licensing options.\nThis property can be used alongside the license property which indicates license(s) applicable to some piece of content. The usageInfo property can provide information about other licensing options, e.g. acquiring commercial usage rights for an image that is also available under non-commercial creative commons licenses."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "77"
+  }, {
+    "range" : "2",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://schema.org/applicationCategory",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies or defined terms should be preferred."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "applicationCategory",
+      "en" : "applicationCategory"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Type of software application, e.g. 'Game, Multimedia'."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+    "baseIri" : "http://purl.org/vocab/vann",
+    "range" : "81",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/vocab/vann/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "preferredNamespaceUri",
+      "en" : "Preferred Namespace Uri"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The preferred namespace URI to use when using terms from this vocabulary in an XML document."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://schema.org/location",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "location",
+      "en" : "location"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The location of, for example, where an event is happening, where an organization is located, or where an action takes place."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://schema.org/name",
+    "baseIri" : "https://schema.org",
+    "range" : "84",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "name"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The name of the item."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://schema.org/producer",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: in ATLAS, the Research Project responsible for generating the Dataset."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "producer",
+      "en" : "producer"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The person or organization who produced the work (e.g. music album, movie, TV/radio series etc.)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://schema.org/url",
+    "baseIri" : "https://schema.org",
+    "range" : "87",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "url",
+      "en" : "url"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "URL of the item."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://schema.org/license",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from the [EU Licence Vocabulary](http://publications.europa.eu/resource/authority/licence)."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "license",
+      "en" : "license"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A license document that applies to this content, typically indicated by URL."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://purl.org/dc/terms/references",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "references",
+      "en" : "References"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A related resource that is referenced, cited, or otherwise pointed to by the described resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://schema.org/funder",
+    "baseIri" : "https://schema.org",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "funder",
+      "en" : "funder"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A person or organization that supports (sponsors) something through some kind of financial contribution."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/referencedAuthor",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "referencedAuthor",
+      "en" : "referenced author"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "50",
+    "comment" : {
+      "en" : "The main author(s) of the edited text(s) ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://purl.org/dc/terms/conformsTo",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "4",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "conformsTo",
+      "en" : "Conforms To"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "An established standard to which the described resource conforms."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/editionType",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies or defined terms should be preferred. ATLAS recommends using terms from the [Edition Types Vocabulary (ETV)](https://w3id.org/dh-atlas/etv/)."
+    },
+    "label" : {
+      "IRI-based" : "editionType",
+      "en" : "edition type"
+    },
+    "superproperty" : [ "93" ],
+    "domain" : "37",
+    "comment" : {
+      "en" : "The type of edition that reflects how the editorial team has worked on the text and outlines the main objectives of the Digital Scholarly Edition. "
+    },
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://ontosoft.org/software#hasImplementationLanguage",
+    "baseIri" : "http://ontosoft.org/software",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontosoft.org/software",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasImplementationLanguage",
+      "en" : "has implementation language"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "What language(s) is the software written in ?"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://schema.org/inLanguage",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from the [EU Language vocabulary](http://publications.europa.eu/resource/authority/language)."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "inLanguage",
+      "en" : "inLanguage"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The language of the content or performance or used in an action. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also availableLanguage."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://schema.org/exampleOfWork",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "exampleOfWork",
+      "en" : "exampleOfWork"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "A creative work that this resource is an example/instance/realization/derivation of."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://schema.org/foundingDate",
+    "baseIri" : "https://schema.org",
+    "range" : "98",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "foundingDate",
+      "en" : "foundingDate"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "The date that this organization was founded."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://www.w3id.org/dh-atlas/methodology",
+    "baseIri" : "https://www.w3id.org/dh-atlas",
+    "range" : "52",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from the [TaDiRAH taxonomy](https://vocabs.dariah.eu/tadirah/)."
+    },
+    "label" : {
+      "IRI-based" : "methodology",
+      "en" : "methodology"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Research activities performed to realize the research product. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://schema.org/encodingFormat",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS  recommends using a MIME format from the [IANA site](http://www.iana.org/assignments/media-types/media-types.xhtml) or the [EU File Type vocabulary](http://publications.europa.eu/resource/dataset/file-type)."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "encodingFormat",
+      "en" : "encodingFormat"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Media type typically expressed using a MIME format (see [IANA site](http://www.iana.org/assignments/media-types/media-types.xhtml) and [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)), e.g. application/zip for a SoftwareApplication binary, audio/mpeg for .mp3 etc.\nIn cases where a CreativeWork has several media type representations, encoding can be used to indicate each MediaObject alongside particular encodingFormat information.\nUnregistered or niche encoding and file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia/Wikidata entry."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://schema.org/genre",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from [CWRC Genre Ontology](http://sparql.cwrc.ca/ontologies/genre.html)"
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "genre",
+      "en" : "genre"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Genre of the creative work, broadcast channel or group."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://schema.org/datePublished",
+    "baseIri" : "https://schema.org",
+    "range" : "101",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "datePublished",
+      "en" : "datePublished"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Date of first publication or broadcast. For example the date a CreativeWork was broadcast or a Certification was issued."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://ontosoft.org/software#hasCodeLocation",
+    "baseIri" : "http://ontosoft.org/software",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://ontosoft.org/software",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasCodeLocation",
+      "en" : "has code location"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "What is the URL for the code ?"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://w3id.org/dh-atlas/affiliation",
+    "baseIri" : "https://w3id.org/dh-atlas",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "affiliation",
+      "en" : "affiliation"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "An organization that this person is affiliated with. For example, a school/university, a club, or a team."
+    },
+    "attributes" : [ "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://schema.org/associatedMedia",
+    "baseIri" : "https://schema.org",
+    "range" : "47",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://schema.org/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "associatedMedia",
+      "en" : "associatedMedia"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "A media object that encodes this CreativeWork. This property is a synonym for encoding."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://purl.org/dc/terms/type",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "47",
+    "description" : {
+      "en" : "Usage note: values from external vocabularies and defined terms should be preferred. ATLAS recommends using terms from the [KNOT Taxonomy](http://w3id.org/knot/taxonomy/) to more precisely define the nature of a Dataset."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/dc/terms/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "type",
+      "en" : "Type"
+    },
+    "domain" : "47",
+    "subproperty" : [ "92" ],
+    "comment" : {
+      "en" : "The nature or genre of the resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "93"
+  } ]
+}
