@@ -39,7 +39,7 @@ function loadTOC(){
 		}
 		if(jQuery(this).is('h3')){
 			if(j==0){
-				t+='<ul>';
+				t+='<ul style="list-style:none; padding:0">';
 			}
 			j++;
 			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
@@ -59,7 +59,28 @@ function loadTOC(){
       $("#references").load("sections/references-en.html"); 
       $("#crossref").load("sections/crossref-en.html", null, loadHash); 
     });
-    </script> 
+    </script>
+
+	<!-- USAGE NOTE -->
+	<script>
+      $(document).ready(function () {
+         $(".info").each(function() {
+            var splitText = $(this).html().split("Usage note:");
+            console.log(splitText)
+            if (splitText.length === 2) {
+               var firstSpan = $("<p>"+splitText[0]+"</p>");
+               var secondSpan = $("<p><span class='usage-note markdown'>Usage note:</span>"+splitText[1]+"</p>");
+               $(this).empty().append(firstSpan).append(secondSpan);
+            }
+         })
+      })
+   </script>
+   <style>
+      .usage-note {
+         text-decoration: underline;
+         font-weight: bold;
+      }
+   </style> 
   </head> 
 
 <body>
