@@ -975,11 +975,11 @@
     "@value" : "2024-10-15"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Francesca Tomasi"
+    "@value" : "Sebastiano Giacomini"
   }, {
     "@value" : "Marilena Daquino"
   }, {
-    "@value" : "Sebastiano Giacomini"
+    "@value" : "Francesca Tomasi"
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -990,7 +990,7 @@
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2025-07-16"
+    "@value" : "2025-08-04"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "The ATLAS Ontology"

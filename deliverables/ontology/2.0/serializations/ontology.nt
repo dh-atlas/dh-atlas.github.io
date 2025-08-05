@@ -9,12 +9,12 @@
 <https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Riccardo Del Gratta" .
 <https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/contributor> "Roberto Rosselli del Turco" .
 <https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/created> "2024-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Francesca Tomasi" .
-<https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Marilena Daquino" .
 <https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Sebastiano Giacomini" .
+<https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Marilena Daquino" .
+<https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/creator> "Francesca Tomasi" .
 <https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/description> "The ATLAS Ontology is an OWL 2 DL ontology, designed to effectively represent scholarly research projects and their outcomes within the Cultural Heritage domain. In particular, it focuses on highlighting the key characteristics of significant types of research products (Text Collection, Digital Scholarly Edition, Linked Open Data, Ontology, Software, Language Model, and 3D Digital Twin), while considering their unique attributes and specifications. In so doing, it seeks to realise the potential of sharing protocols, good practices, guidelines and evaluation frameworks in the humanities.\n\nBuilt upon a Schema.org backbone, the ATLAS Ontology incorporates both general-purpose and domain-specific ontological standards—such as DCTerms, FaBiO, and Bibframe—by reusing and integrating their terms and types. To ensure greater semantic precision and expressiveness, it also introduces new ATLAS-specific Classes and Properties. This approach enables a higher level of granularity and fosters consistent, meaningful connections between Classes across diverse vocabularies."@en .
 <https://w3id.org/dh-atlas/> <http://purl.org/dc/elements/1.1/rights> <https://w3id.org/italia/controlled-vocabulary/licences/B11_CCBYNC40> .
-<https://w3id.org/dh-atlas/> <http://purl.org/dc/terms/modified> "2025-07-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/dh-atlas/> <http://purl.org/dc/terms/modified> "2025-08-04"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/dh-atlas/> <http://www.w3.org/2000/01/rdf-schema#label> "The ATLAS Ontology" .
 <https://w3id.org/dh-atlas/> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/dh-atlas/> .
 <https://w3id.org/dh-atlas/> <http://www.w3.org/2002/07/owl#versionInfo> "2.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .

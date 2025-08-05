@@ -19,14 +19,14 @@
         <dc:contributor>Riccardo Del Gratta</dc:contributor>
         <dc:contributor>Roberto Rosselli del Turco</dc:contributor>
         <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-10-15</dc:created>
-        <dc:creator>Francesca Tomasi</dc:creator>
-        <dc:creator>Marilena Daquino</dc:creator>
         <dc:creator>Sebastiano Giacomini</dc:creator>
+        <dc:creator>Marilena Daquino</dc:creator>
+        <dc:creator>Francesca Tomasi</dc:creator>
         <dc:description xml:lang="en">The ATLAS Ontology is an OWL 2 DL ontology, designed to effectively represent scholarly research projects and their outcomes within the Cultural Heritage domain. In particular, it focuses on highlighting the key characteristics of significant types of research products (Text Collection, Digital Scholarly Edition, Linked Open Data, Ontology, Software, Language Model, and 3D Digital Twin), while considering their unique attributes and specifications. In so doing, it seeks to realise the potential of sharing protocols, good practices, guidelines and evaluation frameworks in the humanities.
 
 Built upon a Schema.org backbone, the ATLAS Ontology incorporates both general-purpose and domain-specific ontological standards—such as DCTerms, FaBiO, and Bibframe—by reusing and integrating their terms and types. To ensure greater semantic precision and expressiveness, it also introduces new ATLAS-specific Classes and Properties. This approach enables a higher level of granularity and fosters consistent, meaningful connections between Classes across diverse vocabularies.</dc:description>
         <dc:rights rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/B11_CCBYNC40"/>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-16</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-04</terms:modified>
         <rdfs:label>The ATLAS Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="https://w3id.org/dh-atlas/"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
