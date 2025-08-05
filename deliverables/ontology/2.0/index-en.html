@@ -27,7 +27,7 @@ function loadHash() {
 }
 function loadTOC(){
 	//process toc dynamically
-	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  var t='<h2>Table of contents</h2><ul style="list-style:none; padding:0">';i = 1;j=0;
 	  jQuery(".list").each(function(){
 		if(jQuery(this).is('h2')){
 			if(j>0){
@@ -39,7 +39,7 @@ function loadTOC(){
 		}
 		if(jQuery(this).is('h3')){
 			if(j==0){
-				t+='<ul style="list-style:none; padding:0">';
+				t+='<ul style="list-style:none; padding:0 0 0 1em">';
 			}
 			j++;
 			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).ignore("span").text()+'</a></li>';
