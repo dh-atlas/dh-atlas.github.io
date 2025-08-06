@@ -26,7 +26,7 @@
 
 Built upon a Schema.org backbone, the ATLAS Ontology incorporates both general-purpose and domain-specific ontological standards—such as DCTerms, FaBiO, and Bibframe—by reusing and integrating their terms and types. To ensure greater semantic precision and expressiveness, it also introduces new ATLAS-specific Classes and Properties. This approach enables a higher level of granularity and fosters consistent, meaningful connections between Classes across diverse vocabularies.</dc:description>
         <dc:rights rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/B11_CCBYNC40"/>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-04</terms:modified>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-06</terms:modified>
         <rdfs:label>The ATLAS Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="https://w3id.org/dh-atlas/"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
@@ -516,6 +516,17 @@ Unregistered or niche encoding and file formats can be indicated instead via the
         <rdfs:comment xml:lang="en">The publisher of the article in question.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://schema.org/"/>
         <rdfs:label xml:lang="en">publisher</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://schema.org/sameAs -->
+
+
+    <owl:ObjectProperty rdf:about="https://schema.org/sameAs">
+        <rdfs:comment xml:lang="en">URL of a reference Web page that unambiguously indicates the item&apos;s identity. E.g. the URL of the item&apos;s Wikipedia page, Wikidata entry, or official website.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://schema.org/"/>
+        <rdfs:label xml:lang="en">sameAs</rdfs:label>
     </owl:ObjectProperty>
     
 

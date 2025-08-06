@@ -24,7 +24,7 @@
 
 Built upon a Schema.org backbone, the ATLAS Ontology incorporates both general-purpose and domain-specific ontological standards—such as DCTerms, FaBiO, and Bibframe—by reusing and integrating their terms and types. To ensure greater semantic precision and expressiveness, it also introduces new ATLAS-specific Classes and Properties. This approach enables a higher level of granularity and fosters consistent, meaningful connections between Classes across diverse vocabularies."""@en ;
                               <http://purl.org/dc/elements/1.1/rights> <https://w3id.org/italia/controlled-vocabulary/licences/B11_CCBYNC40> ;
-                              <http://purl.org/dc/terms/modified> "2025-08-04"^^xsd:date ;
+                              <http://purl.org/dc/terms/modified> "2025-08-06"^^xsd:date ;
                               rdfs:label "The ATLAS Ontology" ;
                               owl:priorVersion <https://w3id.org/dh-atlas/> ;
                               owl:versionInfo 2.0 .
@@ -329,6 +329,13 @@ Unregistered or niche encoding and file formats can be indicated instead via the
                                rdfs:comment "The publisher of the article in question."@en ;
                                rdfs:isDefinedBy <https://schema.org/> ;
                                rdfs:label "publisher"@en .
+
+
+###  https://schema.org/sameAs
+<https://schema.org/sameAs> rdf:type owl:ObjectProperty ;
+                            rdfs:comment "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website."@en ;
+                            rdfs:isDefinedBy <https://schema.org/> ;
+                            rdfs:label "sameAs"@en .
 
 
 ###  https://schema.org/spatialCoverage
