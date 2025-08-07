@@ -1,7 +1,7 @@
 # 📘 Changelog - ATLAS Ontology v2.0
 
 **Version IRI**: [https://w3id.org/dh-atlas/2.0](https://w3id.org/dh-atlas/2.0)  
-**Release date**: 2025-08-04  
+**Release date**: 2025-08-06  
 **Changelog author**: Sebastiano Giacomini  
 
 ---
