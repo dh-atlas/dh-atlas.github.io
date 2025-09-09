@@ -145,6 +145,9 @@ ul.menu-fullscreen li > a:hover{
   color:#ffffff;
 }
 
+ul > li > ul {
+	padding: 1em;
+}
 
 #full{
   width:1140px;
@@ -709,3 +712,4 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
