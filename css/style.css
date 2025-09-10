@@ -145,10 +145,6 @@ ul.menu-fullscreen li > a:hover{
   color:#ffffff;
 }
 
-ul > li > ul {
-	padding: 1em;
-}
-
 #full{
   width:1140px;
   position: relative;
@@ -385,6 +381,16 @@ CONTENT
   color:#000000;
   font-weight:900;
   line-height:70px;
+}
+
+.content .text-intro h2{
+  margin-top:28px;
+  font-size:20px;
+  width:80%;
+  text-transform:uppercase;
+  color:#8d8d8d;
+  font-weight:900;
+  line-height:30px;
 }
 
 .content .text-intro p{
@@ -712,4 +718,19 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
+/*
+**************************
+WORKSHOP
+**************************
+*/
+
+ul > li > ul {
+	padding: 1em;
+}
+
+img.poster {
+  max-width: 80%;
+  border: 1px solid #dedede;
+}
 
