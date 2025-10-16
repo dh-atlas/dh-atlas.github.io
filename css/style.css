@@ -26,6 +26,10 @@ p{
   font-weight: 400;
 }
 
+p.outcome-title{
+  margin-bottom: -15px;
+}
+
 a{
   text-decoration:none;
   -webkit-transition: all 0.2s ease-in;
